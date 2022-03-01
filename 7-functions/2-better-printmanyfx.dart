@@ -11,6 +11,17 @@ printMany(String forPrinting, int numberOfPrints) {
   }
 }
 
+void sayHey(String name){
+  print("Hello, $name");
+}
+
+luckyNumber(){
+  return 7;
+  print("this won't be printed");
+}
+
 main(){
  printMany("Msifu Bwana", 2);
+ sayHey("Papii");
+ luckyNumber();
 }
