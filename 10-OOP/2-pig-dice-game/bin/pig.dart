@@ -20,7 +20,7 @@ void createPlayers() {
       print("Not a valid selection");
       exit(0); // exit
     }
-  } while (numPlayers < 1); // can't have <1 players
+  } while (numPlayers <= 1); // can't have <1 players
 // create the Player objects responsible for tracking
   for (int i = 1; i <= numPlayers; i++) {
     print("What is Player $i's name?");
